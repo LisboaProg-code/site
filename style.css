@@ -14,13 +14,85 @@
 *{
     margin: 0px;
     padding: 0px;
+
+}
+
+body{
+    background-color: var(--cor4);
+}
+
+header{
+    height: 150px;
+    background-color: black;
+    background-image: url(imagens/guitarr.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+header h1{
+    font-family: 'roboto';
+    padding-top: 50px;
+    text-align: center;
+    color: var(--cor1);
+    text-shadow: 10px 10px 10px black;
+}
+
+main{
+    margin: auto;
+}
+
+main p{
+    text-align: justify;
+}
+
+article{
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+div{
+    background-color: var(--cor5);
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+
+}
+
+div > nav a{
+    display: none;
+}
+
+div:hover > nav a{
+    display: inline;
+}
+
+main nav a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    padding-top: 50px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-style: italic;
+    color: white;
+    margin: 20px;
 }
 
 footer{
-    width: 100%;
-    background-color: var(--cor5);
-    color: var(--cor2);
+    margin-top: 20px;
+    background-color: black;
+    color:white;
     text-align: center;
     padding: 10px;
-    
 }
