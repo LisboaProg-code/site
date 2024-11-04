@@ -42,9 +42,28 @@ main{
     margin: auto;
 }
 
+main h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: -20px;
+    font-size: 2em;
+}
+
+main h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
 main p{
     text-align: justify;
+    text-indent: 30px;
 }
+
+main .paddingcima{
+    padding-top: 20px;
+}
+
 
 article{
     background-color: white;
