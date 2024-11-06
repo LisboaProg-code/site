@@ -69,6 +69,7 @@ article{
     background-color: white;
     border: 2px solid black;
     margin: auto;
+    margin-top: 20px;
     width: 90%;
     padding-top: 20px;
     padding-left: 30px;
@@ -76,7 +77,25 @@ article{
     border-bottom-right-radius: 10px;
 }
 
-div{
+div#sumario{
+    background-color: rgba(0, 0, 0, 0.718);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: -30px;
+    width: 100%;
+    margin: auto;
+}
+
+div > ul li{
+    display: none;
+}
+
+div:hover > ul li{
+    display: block;
+}
+
+div#grupo{
     background-color: var(--cor5);
     color: white;
     margin: auto;
