@@ -90,11 +90,18 @@ article{
     padding-bottom: 30px;
 }
 
+li{
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
 #mano1{
     background-image: url(imagens/renato-russo.webp);
     height: 500px;
     background-repeat: no-repeat;
     background-position: right center;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: -30px;
     background-size: cover;
     background-attachment: fixed;
@@ -104,6 +111,7 @@ article{
     text-indent: 30px;
     padding-right: -20px;
     padding-left: 30px;
+    padding-top: 80px;
     
 }
 
@@ -112,8 +120,35 @@ article{
     width: 300px;
     height: 300px;
     text-align: justify;
-    padding-top: 100px;
+    transform: translate(5%, 30%);
+    
+}
 
+#mano2{
+    background-image: url(imagens/bixofei.jpg);
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-left: -30px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#mano2{
+    text-indent: 30px;
+    padding-right: -20px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+
+#mano2 p{
+    text-indent: 30px;
+    padding-right: -20px;
+    padding-left: 30px;
+    padding-top: 80px;
 }
 
 div{
