@@ -93,6 +93,7 @@ div > ul li{
 
 div:hover > ul li{
     display: block;
+    transition-duration: 1s;
 }
 
 div#grupo{
@@ -111,6 +112,7 @@ div > nav a{
 
 div:hover > nav a{
     display: inline;
+    transition: 1s;
 }
 
 main nav a{
