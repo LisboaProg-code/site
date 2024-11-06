@@ -36,6 +36,8 @@ header h1{
     text-align: center;
     color: var(--cor1);
     text-shadow: 10px 10px 10px black;
+    font-size: 3em;
+    
 }
 
 main{
@@ -46,24 +48,32 @@ main h1{
     padding-top: 20px;
     padding-bottom: 10px;
     margin-left: -20px;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 main h2{
     padding-top: 10px;
     padding-bottom: 20px;
+    font-size: 2.5em;
 }
 
 
 main p{
     text-align: justify;
     text-indent: 30px;
+    margin-right: 20px;
 }
 
 main .paddingcima{
     padding-top: 20px;
 }
 
+main nav a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    padding-top: 50px;
+}
 
 article{
     background-color: white;
@@ -73,8 +83,45 @@ article{
     width: 90%;
     padding-top: 20px;
     padding-left: 30px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
+}
+
+.doidos{
+    padding-bottom: 30px;
+}
+
+#mano1{
+    background-image: url(imagens/renato-russo.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-left: -30px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#mano1 p{
+    text-indent: 30px;
+    padding-right: -20px;
+    padding-left: 30px;
+    
+}
+
+.para{
+    background-color: rgba(0, 0, 0, 0.348);
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+    padding-top: 100px;
+
+}
+
+div{
+    transition-duration: 1s;
+}
+
+div h2{
+    font-size: 1.5em;
 }
 
 div#sumario{
@@ -85,6 +132,26 @@ div#sumario{
     margin-left: -30px;
     width: 100%;
     margin: auto;
+    margin-top: 10px;
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.304);
+}
+
+#transição:hover{
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+}
+
+section aside a{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+section aside a:hover{
+    font-style: italic;
+    transition: 1s;
 }
 
 div > ul li{
@@ -93,7 +160,6 @@ div > ul li{
 
 div:hover > ul li{
     display: block;
-    transition-duration: 1s;
 }
 
 div#grupo{
@@ -103,7 +169,6 @@ div#grupo{
     text-align: center;
     padding: 10px;
     width: 100%;
-
 }
 
 div > nav a{
@@ -113,13 +178,7 @@ div > nav a{
 div:hover > nav a{
     display: inline;
     transition: 1s;
-}
-
-main nav a{
-    text-decoration: none;
-    padding: 30px;
-    color: white;
-    padding-top: 50px;
+    transition-delay: 0.1s
 }
 
 nav a:hover{
@@ -127,6 +186,17 @@ nav a:hover{
     font-style: italic;
     color: white;
     margin: 20px;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+.cinema{
+    margin-top: 20px;
+    margin-left: -30px;
+    background-color: black;
 }
 
 footer{
