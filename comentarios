@@ -7,3 +7,23 @@ também ta chegando as provas e que infelizmente vou ter que focar nelas, já qu
 preciso tbm regular meu sono para eu voltar a fazer cardio, que é e vai ser bastante importante na minha retomada ao bulking
 também preciso colocar em mente que eu terminando o curso de html vou ter q escolher entre me aprofundar mais em html e css, ou javascrit, ou voltar pro back end q se pá por enquanto é o q acho q nn vou escolher.
  
+
+
+
+ #mano2{
+    background-image: url(imagens/bixofei.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-left: -30px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#mano2{
+    text-indent: 30px;
+    padding-right: -20px;
+    padding-left: 30px;
+    padding-top: 80px;
+}

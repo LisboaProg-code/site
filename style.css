@@ -87,21 +87,17 @@ article{
 }
 
 .doidos{
-    padding-bottom: 30px;
-}
-
-li{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     font-size: 2em;
 }
+
 
 #mano1{
     background-image: url(imagens/renato-russo.webp);
     height: 500px;
     background-repeat: no-repeat;
     background-position: right center;
-    margin-top: 50px;
-    margin-bottom: 50px;
     margin-left: -30px;
     background-size: cover;
     background-attachment: fixed;
@@ -121,27 +117,17 @@ li{
     height: 300px;
     text-align: justify;
     transform: translate(5%, 30%);
-    
+
 }
 
 #mano2{
     background-image: url(imagens/bixofei.jpg);
     height: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: right center;
     margin-left: -30px;
     background-size: cover;
     background-attachment: fixed;
-    color: white;
-}
-
-#mano2{
-    text-indent: 30px;
-    padding-right: -20px;
-    padding-left: 30px;
-    padding-top: 80px;
 }
 
 #mano2 p{
@@ -150,6 +136,98 @@ li{
     padding-left: 30px;
     padding-top: 80px;
 }
+
+#mano3{
+    background-image: url(imagens/marcelo.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-left: -30px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#mano3 p{
+    text-indent: 30px;
+    padding-right: -20px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+
+#mano4{
+    background-image: url(imagens/leolo.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: -30px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#mano4 p{
+    text-indent: 30px;
+    padding-right: -20px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+
+#mano01{
+    background-image: url(imagens/herbert_vianna.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-left: -30px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#mano01 p{
+    text-indent: 30px;
+    padding-right: -20px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+
+#mano02{
+    background-image: url(imagens/bi-ribeiro.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-left: -30px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#mano02 p{
+    text-indent: 30px;
+    padding-right: -20px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+
+#mano03{
+    background-image: url(imagens/barone-1.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-left: -30px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#mano03 p{
+    text-indent: 30px;
+    padding-right: -20px;
+    padding-left: 30px;
+    padding-top: 80px;
+}
+
+
 
 div{
     transition-duration: 1s;
