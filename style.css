@@ -63,6 +63,7 @@ main p{
     text-align: justify;
     text-indent: 30px;
     margin-right: 20px;
+    font-size: 1.5em;
 }
 
 main .paddingcima{
@@ -94,143 +95,118 @@ article{
     font-size: 2em;
 }
 
-
-#mano1{
-    background-image: url(imagens/renato-russo.webp);
+.imagem{
     height: 500px;
     background-repeat: no-repeat;
     background-position: right center;
     margin-left: -30px;
     background-size: cover;
     background-attachment: fixed;
+    color: white;
+}
 
+.para{
+    background-color: rgba(0, 0, 0, 0.451);
+    width: 400px;
+    height: 400px;
+    text-align: justify;
+    transform: translate(5%, 15%);
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.478);
+}
+
+
+.centro{
+    text-shadow: 2px 2px 5px black;
+}
+
+#mano1{
+    background-image: url(imagens/renato-russo.webp);
 }
 
 #mano1 p{
     text-indent: 30px;
     padding-right: -20px;
     padding-left: 30px;
-    padding-top: 80px;
-    color: white;
-    
-}
-
-.para{
-    background-color: rgba(0, 0, 0, 0.451);
-    width: 300px;
-    height: 300px;
-    text-align: justify;
-    transform: translate(5%, 30%);
-    border-radius: 15px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.478);
+    padding-top: 90px;
+    font-size: 25px;
 }
 
 #mano2{
     background-image: url(imagens/bixofei.jpg);
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: right center;
-    margin-left: -30px;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 #mano2 p{
     text-indent: 30px;
     padding-right: -20px;
     padding-left: 30px;
-    padding-top: 60px;
-    color: white;
+    padding-top: 40px;
+   font-size: 25px;
 }
 
 #mano3{
     background-image: url(imagens/marcelo.jpeg);
-    height: 500px;
-    background-repeat: no-repeat;
     background-position: left top;
-    margin-left: -30px;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
 }
 
 #mano3 p{
     text-indent: 30px;
     padding-right: -20px;
     padding-left: 30px;
-    padding-top: 80px;
+    padding-top: 30px;
+    font-size: 25px;
 }
 
 #mano4{
-    background-image: url(imagens/leolo.jpg);
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    margin-left: -30px;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
+    background-image: url(imagens/renatorocba.jpg);
+    background-position: top center;
 }
 
 #mano4 p{
     text-indent: 30px;
     padding-right: -20px;
     padding-left: 30px;
-    padding-top: 80px;
+    padding-top: 60px;
+    font-size: 25px;
 }
 
 #mano01{
     background-image: url(imagens/herbert_vianna.webp);
-    height: 500px;
-    background-repeat: no-repeat;
     background-position: left top;
-    margin-left: -30px;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
 }
 
 #mano01 p{
     text-indent: 30px;
     padding-right: -20px;
     padding-left: 30px;
-    padding-top: 80px;
+    padding-top: 70px;
+    font-size: 25px;
 }
 
 #mano02{
     background-image: url(imagens/bi-ribeiro.webp);
-    height: 500px;
-    background-repeat: no-repeat;
     background-position: left top;
-    margin-left: -30px;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
 }
 
 #mano02 p{
     text-indent: 30px;
     padding-right: -20px;
     padding-left: 30px;
-    padding-top: 80px;
+    padding-top: 70px;
+    font-size: 25px;
 }
 
 #mano03{
     background-image: url(imagens/barone-1.png);
-    height: 500px;
-    background-repeat: no-repeat;
     background-position: left top;
-    margin-left: -30px;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
 }
 
 #mano03 p{
     text-indent: 30px;
     padding-right: -20px;
     padding-left: 30px;
-    padding-top: 80px;
+    padding-top: 90px;
+    font-size: 25px;
 }
 
 
@@ -320,6 +296,16 @@ iframe{
 
 #baixo{
     padding-bottom: 30px;
+}
+
+.lista{
+    padding: 20px;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+.cima{
+    padding-top: 30px;
 }
 
 footer{
