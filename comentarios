@@ -9,21 +9,5 @@ também preciso colocar em mente que eu terminando o curso de html vou ter q esc
  
 
 
-
- #mano2{
-    background-image: url(imagens/bixofei.jpg);
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: left top;
-    margin-left: -30px;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-}
-
-#mano2{
-    text-indent: 30px;
-    padding-right: -20px;
-    padding-left: 30px;
-    padding-top: 80px;
-}
+nesse fim de semana, quero terminar o módulo 3 de html e css, terminar o trabalho de historia e ciencias
+ 

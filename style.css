@@ -49,6 +49,7 @@ main h1{
     padding-bottom: 10px;
     margin-left: -20px;
     font-size: 3em;
+    padding-left: 10px;
 }
 
 main h2{
@@ -66,6 +67,7 @@ main p{
 
 main .paddingcima{
     padding-top: 20px;
+    margin-bottom: -50px;
 }
 
 main nav a{
@@ -101,6 +103,7 @@ article{
     margin-left: -30px;
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 #mano1 p{
@@ -108,16 +111,18 @@ article{
     padding-right: -20px;
     padding-left: 30px;
     padding-top: 80px;
+    color: white;
     
 }
 
 .para{
-    background-color: rgba(0, 0, 0, 0.348);
+    background-color: rgba(0, 0, 0, 0.451);
     width: 300px;
     height: 300px;
     text-align: justify;
     transform: translate(5%, 30%);
-
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.478);
 }
 
 #mano2{
@@ -134,7 +139,8 @@ article{
     text-indent: 30px;
     padding-right: -20px;
     padding-left: 30px;
-    padding-top: 80px;
+    padding-top: 60px;
+    color: white;
 }
 
 #mano3{
@@ -228,7 +234,6 @@ article{
 }
 
 
-
 div{
     transition-duration: 1s;
 }
@@ -310,6 +315,11 @@ iframe{
     margin-top: 20px;
     margin-left: -30px;
     background-color: black;
+}
+
+
+#baixo{
+    padding-bottom: 30px;
 }
 
 footer{
