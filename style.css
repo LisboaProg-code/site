@@ -87,6 +87,7 @@ article{
     padding-top: 20px;
     padding-left: 30px;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.285);
 }
 
 .doidos{
@@ -96,13 +97,14 @@ article{
 }
 
 .imagem{
-    height: 500px;
+    height: 600px;
     background-repeat: no-repeat;
     background-position: right center;
     margin-left: -30px;
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    box-shadow: inset 5px 5px 5px 5px rgba(0, 0, 0, 0.305);
 }
 
 .para{
@@ -285,6 +287,8 @@ nav a:hover{
 iframe{
     display: block;
     margin: auto;
+    height: 500px;
+    width: 700px;
 }
 
 .cinema{
