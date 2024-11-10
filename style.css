@@ -23,7 +23,7 @@ body{
 }
 
 header{
-    height: 150px;
+    height: 25vh;
     background-color: black;
     background-image: url(imagens/guitarr.jpg);
     background-position: center center;
@@ -102,7 +102,7 @@ article{
 }
 
 .imagem{
-    height: 600px;
+    height: 90vh;
     background-repeat: no-repeat;
     background-position: right center;
     margin-left: -30px;
@@ -117,7 +117,7 @@ article{
     width: 400px;
     height: 400px;
     text-align: justify;
-    transform: translate(5%, 15%);
+    transform: translate(5%, 30%);
     border-radius: 15px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.478);
 }
@@ -269,7 +269,7 @@ div#grupo{
     margin: auto;
     text-align: center;
     padding: 10px;
-    width: 100%;
+    width: 97.6vw;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.373);
 }
 
@@ -291,27 +291,32 @@ nav a:hover{
 }
 
 iframe{
-    display: block;
-    margin: auto;
-    height: 500px;
-    width: 900px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 .cinema{
-    margin-top: 20px;
-    margin-left: -30px;
-    background-color: black;
+    background-color: var(--cor5);
+    margin: 0px 0px 30px -30px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 58%;
 }
 
 
 #baixo{
     padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 .lista{
     padding: 20px;
     font-size: 1.5em;
     line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cima{
@@ -320,9 +325,11 @@ iframe{
 
 footer{
     font-size: 1.5em;
+    margin-bottom: -10px;
     margin-top: 20px;
     background-color: black;
     color:white;
     text-align: center;
     padding: 10px;
+    width: 97.5vw;
 }
