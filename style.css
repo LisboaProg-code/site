@@ -345,8 +345,27 @@ footer{
 }
 
 @media screen and (max-width: 800px) {
+
+    main p{
+        font-size: 1.2rem;
+    }
+
+    #grupo{
+        font-size: 0.8rem;
+    }
+
+    #grupo a{
+        font-size: 0.8rem;
+        padding: 3vh;
+    }
+
     .para{
         translate: 0% -10%;
+    }
+
+    .centro{
+        font-size: 1.4rem;
+        translate: 0% 20px;
     }
 
     header h1{
