@@ -346,7 +346,7 @@ footer{
 
 @media screen and (max-width: 600px) {
     .para{
-        translate: 5% -10%;
+        translate: 2% -10%;
     }
 
     header h1{
