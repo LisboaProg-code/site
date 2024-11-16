@@ -365,6 +365,21 @@ footer{
         background-position: center center;
     }
 
+    #mano3{
+        background-image: url(imagens/marcelo-500.jpeg);
+        background-position: center center;
+    }
+
+    #mano4{
+        background-image: url(imagens/renatorocba-500.jpg);
+        background-position: center center;
+    }
+
+    #mano01{
+        background-image: url(imagens/herbert_vianna-500.webp);
+        background-position: center center;
+    }
+
     .pequeno{
         translate: 0% -10%;
     }
