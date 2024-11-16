@@ -352,7 +352,7 @@ footer{
 
     .imagem{
         background-position: right center;
-        background-attachment: scroll;
+        
     }
 
     #mano1{
@@ -409,7 +409,7 @@ footer{
     }
 
     .para{
-        translate: 10% 90%;
+        translate: 8% 90%;
         width: 300px;
         height: 320px;
     }
