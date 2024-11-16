@@ -355,6 +355,15 @@ footer{
         background-attachment: scroll;
     }
 
+    #mano1{
+        background-image: url(imagens/renato-russo-500.png);
+    }
+
+    #mano2{
+        background-image: url(imagens/bixofei-500.jpg);
+        background-position: center center;
+    }
+
     .pequeno{
         translate: 0% -10%;
     }
