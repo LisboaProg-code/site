@@ -357,7 +357,7 @@ footer{
 
     #mano1{
         background-image: url(imagens/renato-russo-500.png);
-        background-position: center center;
+        background-position: right center;
     }
 
     #mano2{
@@ -367,16 +367,26 @@ footer{
 
     #mano3{
         background-image: url(imagens/marcelo-500.jpeg);
-        background-position: center center;
+        background-position: center bottom;
     }
 
     #mano4{
         background-image: url(imagens/renatorocba-500.jpg);
-        background-position: center center;
+        background-position: right center;
     }
 
     #mano01{
         background-image: url(imagens/herbert_vianna-500.webp);
+        background-position: center bottom;
+    }
+
+    #mano02{
+        background-image: url(imagens/bi-ribeiro-500.webp);
+        background-position: center center;
+    }
+
+    #mano03{
+        background-image: url(imagens/barone-1-500.png);
         background-position: center center;
     }
 
