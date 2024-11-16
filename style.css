@@ -427,8 +427,12 @@ footer{
         text-indent: 10px;
     }
     
-    #sumario h2, a{
-        font-size: 1.2rem;
+    #sumario h2{
+        font-size: 1.2em;
+    }
+
+    #sumario a{
+        font-size: 1rem;
     }
 
     footer{
