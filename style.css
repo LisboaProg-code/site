@@ -357,7 +357,7 @@ footer{
 
     #mano1{
         background-image: url(imagens/renato-russo-500.png);
-        background-position: center center;
+        background-position: 80%;
     }
 
     #mano2{
@@ -372,7 +372,7 @@ footer{
 
     #mano4{
         background-image: url(imagens/renatorocba-500.jpg);
-        background-position: right center;
+        background-position: 80%;
     }
 
 /* O problema é a merda dos dois renatos */
